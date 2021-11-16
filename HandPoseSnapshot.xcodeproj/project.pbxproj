@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		C37EB123273F06DD0032DAC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EB122273F06DD0032DAC9 /* AppDelegate.swift */; };
 		C37EB125273F06DD0032DAC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EB124273F06DD0032DAC9 /* SceneDelegate.swift */; };
-		C37EB127273F06DD0032DAC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EB126273F06DD0032DAC9 /* ViewController.swift */; };
 		C37EB12A273F06DD0032DAC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37EB128273F06DD0032DAC9 /* Main.storyboard */; };
 		C37EB12C273F06E20032DAC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37EB12B273F06E20032DAC9 /* Assets.xcassets */; };
 		C37EB12F273F06E20032DAC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37EB12D273F06E20032DAC9 /* LaunchScreen.storyboard */; };
 		C37EB13A273F06E30032DAC9 /* HandPoseSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EB139273F06E30032DAC9 /* HandPoseSnapshotTests.swift */; };
 		C37EB144273F06E30032DAC9 /* HandPoseSnapshotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EB143273F06E30032DAC9 /* HandPoseSnapshotUITests.swift */; };
 		C37EB146273F06E30032DAC9 /* HandPoseSnapshotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EB145273F06E30032DAC9 /* HandPoseSnapshotUITestsLaunchTests.swift */; };
+		C37EB154273F070C0032DAC9 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EB153273F070C0032DAC9 /* CountdownView.swift */; };
+		C37EB156273F07260032DAC9 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EB155273F07260032DAC9 /* PreviewViewController.swift */; };
+		C37EB158273F10DF0032DAC9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EB157273F10DF0032DAC9 /* CameraViewController.swift */; };
+		C37EB15A27430EA00032DAC9 /* CaptureSessionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EB15927430EA00032DAC9 /* CaptureSessionError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,6 @@
 		C37EB11F273F06DD0032DAC9 /* HandPoseSnapshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandPoseSnapshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37EB122273F06DD0032DAC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C37EB124273F06DD0032DAC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C37EB126273F06DD0032DAC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C37EB129273F06DD0032DAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C37EB12B273F06E20032DAC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C37EB12E273F06E20032DAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		C37EB13F273F06E30032DAC9 /* HandPoseSnapshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandPoseSnapshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37EB143273F06E30032DAC9 /* HandPoseSnapshotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandPoseSnapshotUITests.swift; sourceTree = "<group>"; };
 		C37EB145273F06E30032DAC9 /* HandPoseSnapshotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandPoseSnapshotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C37EB153273F070C0032DAC9 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		C37EB155273F07260032DAC9 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		C37EB157273F10DF0032DAC9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		C37EB15927430EA00032DAC9 /* CaptureSessionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSessionError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,8 @@
 			children = (
 				C37EB122273F06DD0032DAC9 /* AppDelegate.swift */,
 				C37EB124273F06DD0032DAC9 /* SceneDelegate.swift */,
-				C37EB126273F06DD0032DAC9 /* ViewController.swift */,
-				C37EB128273F06DD0032DAC9 /* Main.storyboard */,
+				C37EB15927430EA00032DAC9 /* CaptureSessionError.swift */,
+				C37EB152273F06FA0032DAC9 /* Views */,
 				C37EB12B273F06E20032DAC9 /* Assets.xcassets */,
 				C37EB12D273F06E20032DAC9 /* LaunchScreen.storyboard */,
 				C37EB130273F06E20032DAC9 /* Info.plist */,
@@ -125,6 +131,17 @@
 				C37EB145273F06E30032DAC9 /* HandPoseSnapshotUITestsLaunchTests.swift */,
 			);
 			path = HandPoseSnapshotUITests;
+			sourceTree = "<group>";
+		};
+		C37EB152273F06FA0032DAC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C37EB128273F06DD0032DAC9 /* Main.storyboard */,
+				C37EB157273F10DF0032DAC9 /* CameraViewController.swift */,
+				C37EB153273F070C0032DAC9 /* CountdownView.swift */,
+				C37EB155273F07260032DAC9 /* PreviewViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C37EB127273F06DD0032DAC9 /* ViewController.swift in Sources */,
+				C37EB15A27430EA00032DAC9 /* CaptureSessionError.swift in Sources */,
 				C37EB123273F06DD0032DAC9 /* AppDelegate.swift in Sources */,
+				C37EB154273F070C0032DAC9 /* CountdownView.swift in Sources */,
+				C37EB156273F07260032DAC9 /* PreviewViewController.swift in Sources */,
 				C37EB125273F06DD0032DAC9 /* SceneDelegate.swift in Sources */,
+				C37EB158273F10DF0032DAC9 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
